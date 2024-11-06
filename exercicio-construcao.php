@@ -3,11 +3,11 @@
 
 Música de Chico Buarque - Construção 
 
-Amou daquela vez como se fosse a última
-Beijou sua mulher como se fosse a última
-E cada filho seu como se fosse o único
-E atravessou a rua com seu passo tímido
-Subiu a construção como se fosse máquina
+--Amou daquela vez como se fosse a última
+--Beijou sua mulher como se fosse a última
+--E cada filho seu como se fosse o único
+--E atravessou a rua com seu passo tímido
+--Subiu a construção como se fosse máquina
 Ergueu no patamar quatro paredes sólidas
 Tijolo com tijolo num desenho mágico
 Seus olhos embotados de cimento e lágrima
@@ -58,6 +58,44 @@ Morreu na contramão atrapalhando o sábado
 $prefix = array(
     "Amou daquela vez como se fosse a ",
     "Beijou sua mulher como se fosse a ",
+    "E cada filho seu como se fosse o ",
+    "E atravessou a rua com seu passo ",
+    "Subiu a construção como se fosse",
+    "Ergueu no patamar quatro paredes",
+    "Tijolo com tijolo num desenho ",
+    "Seus olhos embotados de cimentos ",
+    "Sentou pra descansar como se fosse ",
+    "Comeu feijão com arroz como se fosse um",
+    "Bebeu e soluçou como se fosse um",
+    "Dançou e gargalhou como se ouvisse",
+    "E tropeçou no céu como se fosse um",
+    "E se acabou no chão feito um pacote",
+    "Agonizou no meio do passeio",
+    "Morreu na contramão atrapalhado o",
+    "Amou daquela vez como se fosse o",
+    "Beijou sua mulher como se fosse a",
+    "E cada filho seu como se fosse o" ,
+    "E atravessou a rua com seu passo" ,
+    "Subiu a construção como se fosse" ,
+    "Ergueu no patamar quatro parede" ,
+    "Tijolo com tijolo num desenho", 
+    "Seus olhos embotados de cimento e" ,
+    "Sentou pra descansar como se fosse um" ,
+    "Comeu feijão com arroz como se fosse o",
+    "Bebeu e soluçou como se fosse" ,
+    "Dançou e gargalhou como se fosse o",
+    "E tropeçou no céu como se ouvisse",
+    "E flutuou no ar como se fosse" ,
+    "E se acabou no chão feito um pacote",
+    "Agonizou no meio do passeio",
+    "Morreu na contramão atrapalhando o",
+    "Amou daquela vez como se fosse",
+    "Beijou sua mulher como se fosse", 
+    "Ergueu no patamar quatro paredes", 
+    "Sentou pra descansar como se fosse um", 
+    "E flutuou no ar como se fosse um" ,
+    "E se acabou no chão feito um pacote", 
+    "Morreu na contramão atrapalhando o" ,
 );
 
 
@@ -69,6 +107,7 @@ $suffix = array (
     "máquina",
     "solida",
     "mágica",
+
     // TODO: Continuar colocando os sufixos ( finais da letra ) - Também são 17 itens
 );
 

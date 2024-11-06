@@ -41,6 +41,7 @@ echo PHP_EOL; // Quebra de linha
 
 // Concatenando Strings - Utilizar o operador ponto ( . )
 echo "First String" . " - " . "Second String";
+// concatenar é juntar 2 string 
 
 /* Finalizando o primeiro Bloco */
 echo "</pre>";    // Apenas para facilitar a visualização no formato HTML
@@ -74,23 +75,25 @@ echo PHP_EOL; // Quebra de linha
 // Usando metodos dentro da string
 class Oper 
 {
-    function Sum ($a, $b)
+    function Sum ($a, $b, $o, $r, $y)
     {
-        return $a + $b;
+        return $a + $b - $o * ($r + $y);
     }
 }
 
 $oper = new Oper();
 
-$i = 2;
-$j = 4;
-
+$i = 20;
+$j = 6;
+$o = 5;
+$r = 98;
+$y = 90;
 // Sem utilizar chaves o resultado nao fica correto
 echo " $i + $j = $oper->Sum($i,$j) ";   // Vai gerar um "Warning"
 echo PHP_EOL; // Quebra de linha
 
 // Utilizando chaves o resultado fica melhor quando se usa objetos de classes e arrays
-echo " {$i} + {$j} = {$oper->Sum($i,$j)}";
+echo " {$i} + {$j} - {$o} *({$r}+{$y}) = {$oper->Sum($i,$j,$o,$r,$y)}";
 echo PHP_EOL; // Quebra de linha
 
 echo PHP_EOL; // Quebra de linha

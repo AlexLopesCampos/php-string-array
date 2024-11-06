@@ -72,7 +72,6 @@ var_dump($mustang);
 echo "\n\n";    // Pulando linhas
 
 
-
 // Na forma alternativa
 $corolla = [
     "brand"=>"Toyota",
